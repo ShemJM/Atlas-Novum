@@ -131,8 +131,7 @@ on_startup = {
 				AN_check_religion_minorities = yes
 			}
 		}
-		every_country = {
-			limit = { NOT = { tag = REB } }
+
 			every_owned_province = {
 				limit = { is_city = yes }
 				stock_market_change_indexing_effect = yes
@@ -217,7 +216,7 @@ on_startup = {
 			}
 			AN_govt_assign = yes
 			AN_estate_assign = yes
-		}
+
 		set_global_flag = AN_dev_init
 	}
 	
